@@ -18,6 +18,7 @@ BuildRequires:	ruby-modules
 BuildRequires:	setup.rb = 3.4.1
 %{?ruby_mod_ver_requires_eq}
 #BuildArch:	noarch
+Requires:	python-pygments
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
