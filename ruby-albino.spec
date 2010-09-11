@@ -42,4 +42,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-/usr/lib/ruby/1.8/albino.rb
+%{ruby_rubylibdir}/albino.rb
